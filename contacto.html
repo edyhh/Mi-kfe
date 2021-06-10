@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikfe</title>
+    <link rel="stylesheet" href="../PROYECTO_Mikfe/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../PROYECTO_Mikfe/styles/estilos.css">
+</head>
+<body>
+<header class="header">
+
+    <div class="contenedor"><!--bloque1-->
+        <div class="barra"><!--bloque2-->
+            <a class="logo" href="index.html"><!--enlace al mismo logo-->
+                    <h1 class="logo__nombre no-margin centrar-texto" >MI<span class="logo__bold">-Kfe</span></h1><!--LOGOTIPO con codigo-->
+            </a>
+            <nav class="navegacion">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="recetas.html" class="navegacion__enlace">Recetas</a>
+                <a href="" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+    <div class="header__texto">
+           <h2 class="no-margin">Conoce nuestro delicioso sabor</h2>
+           <p class="no-margin">Aprende con nuestras sencillas recetas</p>
+    </div>
+</header>
+
+<main class="contenedor">    
+    <h3 class="centrar-texto">Contacto</h3>
+    <div class="img-back"></div>
+            
+    <form class="formu-contacto">
+        <div class="campo">  
+            <label for="nombre" class="campo__label">Nombre: </label><!--la propiedad del for hace posicionar al tocar con el cursor el tipo texto en el placeholder -->
+            <input class="campo__field" type="text" placeholder="Escribe tu nombre" id="nombre"><!--recuerda poner el id que solo se ocupa aqui, pero se puede reutilizar en las otras paginas-->
+        </div>
+        <div class="campo">  
+            <label for="mail" class="campo__label">E-mail: </label><!--la propiedad del for hace posicionar al tocar con el cursor el tipo texto en el placeholder -->
+            <input class="campo__field" type="email" placeholder="Escribe E-mail" id="mail"><!--recuerda poner el id que solo se ocupa aqui, pero se puede reutilizar en las otras paginas-->
+        </div>
+        <div class="campo">  
+            <label for="comenta" class="campo__label">Comentarios: </label><!--la propiedad del for hace posicionar al tocar con el cursor el tipo texto en el placeholder -->
+            <textarea class="campo__field--textarea" name="" id="comenta" cols="60" rows="5"></textarea><!--recuerda poner el id que solo se ocupa aqui, pero se puede reutilizar en las otras paginas-->
+        </div>
+        <div class="campo">  
+        <input  type="submit" value="Enviar" class="boton boton--primario">    
+        </div>
+        </form>
+        
+        
+        </main>
+
+<footer class="footer">
+    <div class="contenedor">
+        <div class="barra"><!--bloque2-->
+            <a class="logo" href="index.html"><!--enlace al mismo logo-->
+                    <h1 class="logo__nombre no-margin centrar-texto" >MI<span class="logo__bold">-Kfe</span></h1><!--LOGOTIPO con codigo-->
+            </a>
+            <nav class="navegacion">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="recetas.html" class="navegacion__enlace">Recetas</a>
+                <a href="" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+</body>
+</html> 
